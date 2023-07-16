@@ -1,7 +1,7 @@
 # Machine Learning Guidance
-The Repo integrates a wide range of Machine Learning and Data Science projects of my own all together, including both theoretical and practical/applied.
+The Repo integrates a collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical/ Applied. 
 
-## Machine Learning 
+## Machine Learning Knowledge Sharing
 ### Classification of Algorithm
 - Continuous
   
@@ -22,7 +22,7 @@ The Repo integrates a wide range of Machine Learning and Data Science projects o
 |  ○ FP-Growth                           |    ○ Naive Bayes         |  
 |  Hidden Markov Model                   |    ○ SVM                 |  
 
-### Library 
+### Library Used
 Numpy, matplotlib, pandas, TensorFlow
 
 Caffe, Keras
@@ -55,6 +55,8 @@ XGBoost, gensim
   - SVM classifier
   - Cross Validation
 
-
-
+### Case Exploration: Titanic Survival Prediction
+[Titanic-ML-DataScience-Exploration](https://github.com/PeterHUistyping/Titanic-ML-DataScience-Exploration/) 
+- *Kaggle:Titanic Survival Prediction Exploration*  
+  - Updating
 #### Others' Projects
