@@ -1,3 +1,11 @@
+[submodule "Machine_Learning-Real_World_Data"]
+	path = Machine_Learning-Real_World_Data
+	url = git@github.com:PeterHUistyping/Machine_Learning-Real_World_Data.git
+
 [submodule "Stanford_CS229.Machine_Learning"]
 	path = Stanford_CS229.Machine_Learning
 	url = git@github.com:PeterHUistyping/Stanford_CS229.Machine_Learning.git
+
+[submodule "Stanford_CS231n-Deep_Learning-for-Computer_Vision"]
+	path = Stanford_CS231n-Deep_Learning-for-Computer_Vision
+	url = git@github.com:PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision.git
