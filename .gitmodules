@@ -1,0 +1,3 @@
+[submodule "Stanford_CS229.Machine_Learning"]
+	path = Stanford_CS229.Machine_Learning
+	url = git@github.com:PeterHUistyping/Stanford_CS229.Machine_Learning.git
