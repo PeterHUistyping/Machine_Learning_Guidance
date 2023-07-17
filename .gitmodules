@@ -1,15 +1,19 @@
 [submodule "Machine_Learning-Real_World_Data"]
 	path = Machine_Learning-Real_World_Data
 	url = git@github.com:PeterHUistyping/Machine_Learning-Real_World_Data.git
+	branch = main
 
 [submodule "Stanford_CS229.Machine_Learning"]
 	path = Stanford_CS229.Machine_Learning
 	url = git@github.com:PeterHUistyping/Stanford_CS229.Machine_Learning.git
+	branch = main
 
 [submodule "Stanford_CS231n-Deep_Learning-for-Computer_Vision"]
 	path = Stanford_CS231n-Deep_Learning-for-Computer_Vision
 	url = git@github.com:PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision.git
+	branch = main
 
 [submodule "Titanic-ML-DataScience-Exploration"]
 	path = Titanic-ML-DataScience-Exploration
 	url = git@github.com:PeterHUistyping/Titanic-ML-DataScience-Exploration.git
+	branch = main
