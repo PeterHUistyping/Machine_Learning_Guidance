@@ -6,25 +6,21 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
 
 ### Classification of Algorithm
 
-- Continuous
-
-| Unsupervised                          | Supervised             |
-| ------------------------------------- | ---------------------- |
-| Clustering & Dimensionality Reduction | Regression             |
-| ○ SVD                                | ○ Linear / Polynomial |
-| ○ PCA                                | ○ Non-Linear          |
-| ○ K-means                            | Decision Trees         |
-|                                       | Random Forest          |
-
-- Discrete / Category
-
-| Unsupervised         | Supervised             |
-| -------------------- | ---------------------- |
-| Association Analysis | Classification         |
-| ○ Apriori           | ○ Logistic Regression |
-| ○ FP-Growth         | ○ Naive Bayes         |
-| Hidden Markov Model  | ○ SVM                 |
-|                      | ○ KNN / Trees         |
+| Unsupervised                          | Supervised                                      |
+| ------------------------------------- | ----------------------------------------------  |
+| **Continuous**                        ||                                               
+| Clustering & Dimensionality Reduction | Regression                                      |
+| ○ SVD                                 | ○ Linear / Polynomial                           |
+| ○ PCA                                 | ○ Non-Linear Regression                         |
+| ○ K-means                             | Decision Trees                                  |
+|                                       | Random Forest                                   |
+| **Discrete / Category**               ||                                                 
+| Unsupervised / Association Analysis   | Supervised / Classification                     |
+| ○ Apriori                             | Generative Model (Joint Prob.)                  |
+| ○ FP-Growth                           | ○ Naive Bayes                                   |
+| Hidden Markov Model                   | Discriminative Model (Conditional Prob.)        |
+|                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM     |
+|                                       | ○ KNN / Trees                                   |
 
 ### Library Used
 
