@@ -44,15 +44,18 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
   - create a virtual model for each environment
   - the agent learns to perform in that specific environment
 
-### Library Used
-
-Numpy, matplotlib, pandas, TensorFlow
-
-Caffe, Keras
-
-XGBoost, gensim
-
-### Links to relevant Project / Repo [submodule]
+### Feature Engineering
+- Feature Selection
+- Imputation
+- Handling Outliers
+  - Removal, Replacing values, Capping, Discretization 
+- Encoding
+  - Integer Encoding
+  - One-Hot Encoding (enum -> binary)
+- Scaling 
+  - Normalization, min-max/ 0-1
+  - Standardization
+## Links to relevant Project / Repo [submodule]
 
 #### My Projects
 
@@ -94,3 +97,12 @@ XGBoost, gensim
   - Updating
 
 #### Others' Projects
+
+
+## Library Used
+
+Numpy, matplotlib, pandas, TensorFlow
+
+Caffe, Keras
+
+XGBoost, gensim
