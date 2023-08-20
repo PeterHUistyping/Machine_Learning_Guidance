@@ -15,7 +15,7 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
 | ○ K-means                             | Decision Trees                                  |
 |                                       | Random Forest                                   |
 | **Discrete / Category**               ||                                                 
-| Unsupervised / Association Analysis   | Supervised / Classification                     |
+| Association Analysis                  | Classification                                  |
 | ○ Apriori                             | Generative Model (Joint Prob.)                  |
 | ○ FP-Growth                           | ○ Naive Bayes                                   |
 | Hidden Markov Model                   | Discriminative Model (Conditional Prob.)        |
