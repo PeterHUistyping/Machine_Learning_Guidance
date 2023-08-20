@@ -4,23 +4,45 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
 
 ## Machine Learning Knowledge Sharing
 
-### Classification of Algorithm
+### ML Categories
 
-| Unsupervised                          | Supervised                                      |
-| ------------------------------------- | ----------------------------------------------  |
-| **Continuous**                        ||                                               
-| Clustering & Dimensionality Reduction | Regression                                      |
-| ○ SVD                                 | ○ Linear / Polynomial                           |
-| ○ PCA                                 | ○ Non-Linear Regression                         |
-| ○ K-means                             | Decision Trees                                  |
-|                                       | Random Forest                                   |
-| **Discrete / Category**               ||                                                 
-| Association Analysis                  | Classification                                  |
-| ○ Apriori                             | Generative Model (Joint Prob.)                  |
-| ○ FP-Growth                           | ○ Naive Bayes                                   |
-| Hidden Markov Model                   | Discriminative Model (Conditional Prob.)        |
-|                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM     |
-|                                       | ○ KNN / Trees                                   |
+| Unsupervised Learning                 | Supervised Learning                            |
+| ------------------------------------- | ---------------------------------------------- |
+| **Continuous**                  |                                                |
+| Clustering & Dimensionality Reduction | Regression                                     |
+| ○ SVD                                | ○ Linear / Polynomial                         |
+| ○ PCA                                | ○ Non-Linear Regression                       |
+| ○ K-means                            | Decision Trees                                 |
+|                                       | Random Forest                                  |
+| **Discrete / Categorical**      |                                                |
+| Association Analysis                  | Classification                                 |
+| ○ Apriori                            | Generative Model (Joint Prob.)                 |
+| ○ FP-Growth                          | ○ Naive Bayes                                 |
+| Hidden Markov Model                   | Discriminative Model (Conditional Prob.)      |
+|                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |
+|                                       | ○ KNN / Trees                                 |
+
+**Semi-Supervised Learning** 
+
+- uses a small portion of labeled data and lots of unlabeled data to train a predictive model
+- iteratively generate pseudo-labels for a new dataset
+
+**Reinforcement Learning**
+
+- Markov Decision Process
+- Q learning
+- Value-based           V(s)
+
+  - the agent is expecting a long-term return of the current states under policy π
+- Policy-based
+
+  - the action performed in every state helps you to gain maximum reward in the future
+  - Deterministic: For any state, the same action is produced by the policy π
+  - Stochastic: Every action has a certain probability
+- Model-based
+
+  - create a virtual model for each environment
+  - the agent learns to perform in that specific environment
 
 ### Library Used
 
