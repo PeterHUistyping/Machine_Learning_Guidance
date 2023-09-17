@@ -22,7 +22,7 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
 |                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |
 |                                       | ○ KNN / Trees                                 |
 
-**Semi-Supervised Learning** 
+**Semi-Supervised Learning**
 
 - uses a small portion of labeled data and lots of unlabeled data to train a predictive model
 - iteratively generate pseudo-labels for a new dataset
@@ -45,16 +45,20 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
   - the agent learns to perform in that specific environment
 
 ### Feature Engineering
+
 - Feature Selection
+  - After fitting, plot Residuals vs any Predictor Variable
+  - Linearly-dependent feature vectors
 - Imputation
 - Handling Outliers
-  - Removal, Replacing values, Capping, Discretization 
+  - Removal, Replacing values, Capping, Discretization
 - Encoding
   - Integer Encoding
   - One-Hot Encoding (enum -> binary)
-- Scaling 
+- Scaling
   - Normalization, min-max/ 0-1
   - Standardization
+
 ## Links to relevant Project / Repo [submodule]
 
 #### My Projects
@@ -97,8 +101,14 @@ The Repo integrates a collection of my *Machine Learning and Data Science Projec
   - Updating
 
 #### Others' Projects
-
-
+### Generative Pre-trained Transformer (GPT) from Scratch (Andrej Karpathy)
+- Youtube: https://www.youtube.com/watch?v=kCc8FmEb1nY  
+- Video repo: https://github.com/karpathy/ng-video-lecture  
+- nanoGPT repo: https://github.com/karpathy/nanoGPT  
+**Paper**:  
+- Attention is All You Need paper: https://arxiv.org/abs/1706.03762
+- OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165 
+- OpenAI ChatGPT blog post: https://openai.com/blog/chatgpt/
 ## Library Used
 
 Numpy, matplotlib, pandas, TensorFlow
