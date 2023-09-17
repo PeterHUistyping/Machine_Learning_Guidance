@@ -1,6 +1,7 @@
 # Machine Learning Guidance
 
-The Repo integrates a collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical/ Applied.
+The Repo integrates a collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical (Applied) ML.   
+In addition, there are also materials (paper, ebook, repo, tool, etc) that I found very interesting and helpful attached. I hope it could help you start from beginner to advanced.  
 
 ## Machine Learning Knowledge Sharing
 
@@ -110,7 +111,9 @@ https://platform.openai.com/docs/introduction
 
 - Youtube: https://www.youtube.com/watch?v=kCc8FmEb1nY
 - Video repo: https://github.com/karpathy/ng-video-lecture
-- nanoGPT repo: https://github.com/karpathy/nanoGPT**Paper**:
+- nanoGPT repo: https://github.com/karpathy/nanoGPT
+
+**Paper**
 - Attention is All You Need paper: https://arxiv.org/abs/1706.03762
 - OpenAI GPT-3 paper: https://arxiv.org/abs/2005.14165
 - OpenAI ChatGPT blog post: https://openai.com/blog/chatgpt/
