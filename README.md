@@ -1,27 +1,28 @@
 # Machine Learning Guidance
 
-The Repo integrates a collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical (Applied) ML.   
-In addition, there are also materials (paper, ebook, repo, tool, etc) that I found very interesting and helpful attached. I hope it could help you start from beginner to advanced.  
+The Repo integrates a collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical (Applied) ML.
+In addition, there are also materials (paper, ebook, repo, tool, etc) that I found very interesting and helpful attached. I hope it could help you start from beginner to advanced.
 
 ## Machine Learning Knowledge Sharing
 
 ### ML Categories
 
-| Unsupervised Learning                 | Supervised Learning                            |
-| ------------------------------------- | ---------------------------------------------- |
-| **Continuous**                  |                                                |
-| Clustering & Dimensionality Reduction | Regression                                     |
-| ○ SVD                                | ○ Linear / Polynomial                         |
-| ○ PCA                                | ○ Non-Linear Regression                       |
-| ○ K-means                            | Decision Trees                                 |
-|                                       | Random Forest                                  |
-| **Discrete / Categorical**      |                                                |
-| Association Analysis                  | Classification                                 |
-| ○ Apriori                            | Generative Model (Joint Prob.)                 |
-| ○ FP-Growth                          | ○ Naive Bayes                                 |
-| Hidden Markov Model                   | Discriminative Model (Conditional Prob.)      |
-|                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |
-|                                       | ○ KNN / Trees                                 |
+| Unsupervised Learning                 | Supervised Learning                            | Online Learning          |
+| ------------------------------------- | ---------------------------------------------- | ------------------------ |
+| **Continuous**                  |                                                | Search and self-learning |
+| Clustering & Dimensionality Reduction | Regression                                     | ○Genetic Algorithm      |
+| ○ SVD                                | ○ Linear / Polynomial                         | ○Genetic Programming    |
+| ○ PCA                                | ○ Non-Linear Regression                       | ○Reinforcement Learning |
+| ○ K-means                            | Decision Trees                                 |                          |
+|                                       | Random Forest                                  |                          |
+| **Discrete / Categorical**      |                                                |                          |
+| Association Analysis                  | Classification                                 |                          |
+| ○ Apriori                            | Generative Model (Joint Prob.)                 |                          |
+| ○ FP-Growth                          | ○ Naive Bayes                                 |                          |
+| Hidden Markov Model                   | Discriminative Model (Conditional Prob.)      |                          |
+|                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |                          |
+|                                       | ○ KNN / Trees                                 |                          |
+
 
 **Semi-Supervised Learning**
 
@@ -114,6 +115,7 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 - [👨‍💻nanoGPT repo](https://github.com/karpathy/nanoGPT)
 
 **Paper**
+
 - [📄Attention is All You Need](https://arxiv.org/abs/1706.03762)
 - [📄OpenAI GPT-3](https://arxiv.org/abs/2005.14165)
 - [📝OpenAI ChatGPT blog post](https://openai.com/blog/chatgpt/)
