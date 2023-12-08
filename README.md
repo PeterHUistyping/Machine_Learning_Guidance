@@ -23,7 +23,6 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 |                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |                                    |
 |                                       | ○ KNN / Trees                                 |                                    |
 
-
 **Semi-Supervised Learning**
 
 - uses a small portion of labeled data and lots of unlabeled data to train a predictive model
@@ -84,6 +83,11 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
   - Stochastic Gradient Descent
   - L1 L2 Regularization
   - SVM
+
+| I\O                 | Image             | Knowledge                |
+| ------------------- | ----------------- | ------------------------ |
+| **Image**     | Image Processing  | Computer Vision          |
+| **Knowledge** | Computer Graphics | Aritificial Intelligence |
 
 ### Computer Vision
 
