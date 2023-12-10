@@ -21,7 +21,7 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 | ○ FP-Growth                          | ○ Naive Bayes, Bayesian                       |                                    |
 | Hidden Markov Model                   | Discriminative Model (Conditional Prob.)      |                                    |
 |                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |                                    |
-|                                       | ○ KNN / Trees                                 |                                    |
+|                                       | ○ kNN / Trees                                 |                                    |
 
 **Semi-Supervised Learning**
 
@@ -60,43 +60,48 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
   - Normalization, min-max/ 0-1
   - Standardization
 
-## Links to relevant Project / Repo [submodule]
-
-#### My Projects
+## My Projects
 
 ### Foundation of Machine Learning (naive NLP, Network)
 
-[CambridgeIA-Machine_Learning-Real_World_Data_with_Python_src](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
+*Machine Learning Real World Data, University of Cambridge IA*
 
-- *Machine Learning Real World Data, University of Cambridge IA*
-  - Text Classification using ML Naive Bayes;
-  - Cross-Validation, NLP;
-  - HMM;
-  - Social Network
+[Cambridge-IA-MLRD](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
+
+- Text Classification;
+- Naive Bayes
+- Cross-Validation, NLP
+- HMM
+- Social Network
 
 ### Theoretical Machine Learning
 
-[Stanford_CS229.Machine_Learning](https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning)
+*Theoretical Machine Learning with Problems Sets, Stanford CS229*
 
-- *Theoretical Machine Learning with Problems Sets, Stanford CS229*
+[Stanford_CS229-ML](https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning)
+
+- Basic Concepts
   - Linear classifiers (Logistic Regression, GDA)
   - Stochastic Gradient Descent
   - L1 L2 Regularization
   - SVM
+
+### Computer Vision
 
 | I\O                 | Image             | Knowledge                |
 | ------------------- | ----------------- | ------------------------ |
 | **Image**     | Image Processing  | Computer Vision          |
 | **Knowledge** | Computer Graphics | Aritificial Intelligence |
 
-### Computer Vision
+*Theoretical Computer Vision with Problems Sets, Stanford CS231n*
 
-[Stanford_CS231n-Deep_Learning-for-Computer_Vision](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
+[Stanford_CS231n-DL-for-CV](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
 
-- *Theoretical Computer Vision with Problems Sets, Stanford CS231n*
+- Image Classification (Supervised Learning, Discrete label)
   - kNN
   - Softmax
   - SVM classifier
+  - CNN
   - Cross Validation
 
 ### Case Exploration: Titanic Survival Prediction
@@ -104,9 +109,9 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 [Titanic-ML-DataScience-Exploration](https://github.com/PeterHUistyping/Titanic-ML-DataScience-Exploration/)
 
 - *Kaggle:Titanic Survival Prediction Exploration*
-  - Updating
+  - Updating ...
 
-#### Others' Projects
+## Reference
 
 ### OpenAI cookbook
 
