@@ -66,7 +66,7 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 
 *Machine Learning Real World Data, University of Cambridge IA*
 
-[Cambridge-IA-MLRD](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
+[MLRD-Cambridge_IA](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
 
 - Text Classification;
 - Naive Bayes
@@ -78,7 +78,7 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 
 *Theoretical Machine Learning with Problems Sets, Stanford CS229*
 
-[Stanford_CS229-ML](https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning)
+[ML-Stanford_CS229](https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning)
 
 - Basic Concepts
   - Linear classifiers (Logistic Regression, GDA)
@@ -95,7 +95,7 @@ In addition, there are also materials (paper, ebook, repo, tool, etc) that I fou
 
 *Theoretical Computer Vision with Problems Sets, Stanford CS231n*
 
-[Stanford_CS231n-DL-for-CV](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
+[DL-for-CV-Stanford_CS231n](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
 
 - Image Classification (Supervised Learning, Discrete label)
   - kNN
