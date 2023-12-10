@@ -1,7 +1,8 @@
 # Machine Learning Guidance
 
-The Repo integrates a collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical (Applied) ML.
-In addition, there are also materials (paper, ebook, repo, tool, etc) that I found very interesting and helpful attached. I hope it could help you start from beginner to advanced.
+A collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical (Applied) ML.
+
+In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
 
 ## Machine Learning Knowledge Sharing
 
