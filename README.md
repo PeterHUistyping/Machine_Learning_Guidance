@@ -94,7 +94,7 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 | **Image**     | Image Processing  | Computer Vision          |
 | **Knowledge** | Computer Graphics | Aritificial Intelligence |
 
-![Relationship_CV](Asset/Relationship.png)
+![Relationship_CV](Asset/Relationship_CV.png)
 
 *Theoretical Computer Vision with Problems Sets, Stanford CS231n*
 
