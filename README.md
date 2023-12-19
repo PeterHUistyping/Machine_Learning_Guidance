@@ -4,23 +4,35 @@ A collection of my *Machine Learning and Data Science Projects*, including both 
 
 In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
 
-
 ### ML Categories
 
-| Output      | Unsupervised Learning   | Supervised Learning   | Online Learning                        |
-| ----------- | ---------------- | ------------------------------ | --------------- |
-| **Continuous**  $R$     | ***Clustering & <br />Dim Reduction***      | ***Regression***                                     | **Search & <br />Self-learning** |
-|                                             | ○ SVD                                              | ○ Linear / Polynomial                                       | Genetic Algorithm                      |
-|                                             | ○ PCA                                              | ○ Non-Linear Regression                                     | Reinforcement L                        |
-|                                             | ○ K-means                                          | Decision Trees                                               |                                        |
-|                                             |                                                     | Random Forest                                                |                                                                           
-| **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification***                                 |                                        |
-|                                             | ○ Apriori                                          | Generative Model (Joint Prob.)<br />○ Naive Bayes, Bayesian |                                        |
-|                                             | ○ FP-Growth                                        | Discriminative Model<br />(Conditional Prob.)               |                                        |
-|                                             | Hidden Markov Model                                 | ○ Logistic Regression<br />  ○ Perceptron  ○ SVM          |                                        |
-|                                             |                                                     | ○ kNN / Trees                                               | 
+**Generative Model**
 
+- Joint Probability $P(x,y)$
+  - Assume some functional form for $P(y)$, $P(x|y)$
+  - Then, calculate $P(y|x)$ (via Bayes rule)
+- Naive Bayes, HMM
+- Not direct ✗, but could generate $X$ via $P(x|y)$ ✓
 
+**Discriminative Model**
+
+- Conditional Probability $P(y|x)$ directly
+- Logistic regression, SVM, NN
+
+Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
+
+| Output                                      | Unsupervised Learning                               | Supervised Learning                                 | Online Learning                        |
+| ------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | -------------------------------------- |
+| **Continuous**  $R$                 | ***Clustering & <br />Dim Reduction***      | ***Regression***                            | **Search & <br />Self-learning** |
+|                                             | ○ SVD                                              | ○ Linear / Polynomial                              | Genetic Algorithm                      |
+|                                             | ○ PCA                                              | ○ Non-Linear Regression                            | Reinforcement L                        |
+|                                             | ○ K-means                                          | Decision Trees                                      |                                        |
+|                                             | ○ GAN                                             | Random Forest                                       |                                        |
+| **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification***                        |                                        |
+|                                             | ○ Apriori                                          | ○ Naive Bayes, Bayesian                            |                                        |
+|                                             | ○ FP-Growth                                        | ○ Logistic Regression                              |                                        |
+|                                             | Hidden Markov Model                                 | ○ SVM                                              |                                        |
+|                                             |                                                     | ○ kNN / Trees ○ Perceptron<br />○ CNN  ○ RNN |                                        |
 
 **Semi-Supervised Learning**
 
@@ -31,7 +43,7 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 - Markov Decision Process
 - Q learning
-- Value-based           V(s)
+- Value-based V(s)
 
   - the agent is expecting a long-term return of the current states under policy π
 - Policy-based
