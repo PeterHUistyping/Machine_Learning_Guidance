@@ -4,7 +4,6 @@ A collection of my *Machine Learning and Data Science Projects*, including both 
 
 In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
 
-## Machine Learning Knowledge Sharing
 
 ### ML Categories
 
