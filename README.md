@@ -8,21 +8,21 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 ### ML Categories
 
-| Unsupervised Learning                 | Supervised Learning                            | Online Learning                    |
-| ------------------------------------- | ---------------------------------------------- | ---------------------------------- |
-| **Continuous**                  |                                                | **Search and self-learning** |
-| Clustering & Dimensionality Reduction | Regression                                     | Genetic Algorithm                  |
-| ○ SVD                                | ○ Linear / Polynomial                         | ○Genetic Programming              |
-| ○ PCA                                | ○ Non-Linear Regression                       | Reinforcement Learning             |
-| ○ K-means                            | Decision Trees                                 |                                    |
-|                                       | Random Forest                                  |                                    |
-| **Discrete / Categorical**      |                                                |                                    |
-| Association/ Feature Analysis        | Classification                                 |                                    |
-| ○ Apriori                            | Generative Model (Joint Prob.)                 |                                    |
-| ○ FP-Growth                          | ○ Naive Bayes, Bayesian                       |                                    |
-| Hidden Markov Model                   | Discriminative Model (Conditional Prob.)      |                                    |
-|                                       | ○ Logistic Regression   ○ Perceptron  ○ SVM |                                    |
-|                                       | ○ kNN / Trees                                 |                                    |
+| Output                                      | Unsupervised Learning                               | Supervised Learning                            | Online Learning                    |
+| ------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- | ---------------------------------- |
+| **Continuous**  $R$                 | ***Clustering & Dimensionality Reduction*** | ***Regression***                       | **Search and self-learning** |
+|                                             | ○ SVD                                              | ○ Linear / Polynomial                         | Genetic Algorithm                  |
+|                                             | ○ PCA                                              | ○ Non-Linear Regression                       | ○Genetic Programming              |
+|                                             | ○ K-means                                          | Decision Trees                                 | Reinforcement Learning             |
+|                                             |                                                     | Random Forest                                  |                                    |
+|                                             |                                                     |                                                |                                    |
+| **Discrete $C$  <br />Categorical** | ***Association/ Feature Analysis***        | ***Generative Model (Joint Prob.)***   |                                    |
+|                                             | ○ Apriori                                          | ○ Naive Bayes, Bayesian                       |                                    |
+|                                             | ○ FP-Growth                                        | Discriminative Model (Conditional Prob.)      |                                    |
+|                                             | Hidden Markov Model                                 | ○ Logistic Regression   ○ Perceptron  ○ SVM |                                    |
+|                                             |                                                     | ○ kNN / Trees                                 |                                    |
+|                                             |                                                     |                                                |                                    |
+|                                             |                                                     |                                                |                                    |
 
 **Semi-Supervised Learning**
 
@@ -89,10 +89,10 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 ### Computer Vision
 
-| I\O                 | Image             | Knowledge                |
-| ------------------- | ----------------- | ------------------------ |
-| **Image**     | Image Processing  | Computer Vision          |
-| **Knowledge** | Computer Graphics | Aritificial Intelligence |
+| I\O                 | Image                     | Knowledge                |
+| ------------------- | ------------------------- | ------------------------ |
+| **Image**     | Image**Processing** | Computer Vision          |
+| **Knowledge** | Computer Graphics         | Aritificial Intelligence |
 
 ![Relationship_CV](Asset/Relationship_CV.png)
 
