@@ -12,11 +12,12 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
   - Assume some functional form for $P(y)$, $P(x|y)$
   - Then, calculate $P(y|x)$ (via Bayes rule)
 - Naive Bayes, HMM
-- Not direct ✗, but could generate $X$ via $P(x|y)$ ✓
+  - Not direct ✗
+  - but could generate $X$ via $P(x|y)$ ✓
 
 **Discriminative Model**
 
-- Conditional Probability $P(y|x)$ directly
+- Conditional Probability $P(y|x)$ directly ✓
 - Logistic regression, SVM, NN
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
