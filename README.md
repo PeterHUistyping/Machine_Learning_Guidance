@@ -4,7 +4,9 @@ A collection of my *Machine Learning and Data Science Projects*, including both 
 
 In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
 
-### ML Categories
+## ML Categories
+
+### Generative vs Discriminative Model
 
 **Generative Model**
 
@@ -17,11 +19,13 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 **Discriminative Model**
 
-- Conditional Probability $P(y|x)$ 
+- Conditional Probability $P(y|x)$
   - Direct classification  ✓
 - Logistic regression, SVM, NN
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
+
+### Methods Available
 
 | Output                                      | Unsupervised Learning                               | Supervised Learning                                 | Online Learning                        |
 | ------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | -------------------------------------- |
@@ -58,7 +62,7 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
   - create a virtual model for each environment
   - the agent learns to perform in that specific environment
 
-### Feature Engineering
+## Feature Engineering
 
 - Feature Selection
   - After fitting, plot Residuals vs any Predictor Variable
