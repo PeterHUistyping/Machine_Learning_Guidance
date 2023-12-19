@@ -10,16 +10,16 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 | Output                                      | Unsupervised Learning                               | Supervised Learning                                          | Online Learning                    |
 | ------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------- |
-| **Continuous**  $R$                 | ***Clustering & Dimensionality Reduction*** | ***Regression***                                     | **Search and self-learning** |
+| **Continuous**  $R$                 | ***Clustering & <br />Dim Reduction***      | ***Regression***                                     | **Search and self-learning** |
 |                                             | ○ SVD                                              | ○ Linear / Polynomial                                       | Genetic Algorithm                  |
 |                                             | ○ PCA                                              | ○ Non-Linear Regression                                     | ○Genetic Programming              |
 |                                             | ○ K-means                                          | Decision Trees                                               | Reinforcement Learning             |
 |                                             |                                                     | Random Forest                                                |                                    |
 |                                             |                                                     |                                                              |                                    |
-| **Discrete $C$  <br />Categorical** | ***Association/ Feature Analysis***        | ***Classification***                                 |                                    |
+| **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification***                                 |                                    |
 |                                             | ○ Apriori                                          | Generative Model (Joint Prob.)<br />○ Naive Bayes, Bayesian |                                    |
-|                                             | ○ FP-Growth                                        | Discriminative Model (Conditional Prob.)                    |                                    |
-|                                             | Hidden Markov Model                                 | ○ Logistic Regression   ○ Perceptron  ○ SVM               |                                    |
+|                                             | ○ FP-Growth                                        | Discriminative Model <br />(Conditional Prob.)              |                                    |
+|                                             | Hidden Markov Model                                 | ○ Logistic Regression <br />  ○ Perceptron  ○ SVM         |                                    |
 |                                             |                                                     | ○ kNN / Trees                                               |                                    |
 |                                             |                                                     |                                                              |                                    |
 |                                             |                                                     |                                                              |                                    |
