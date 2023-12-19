@@ -8,21 +8,20 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 ### ML Categories
 
-| Output                                      | Unsupervised Learning                               | Supervised Learning                                          | Online Learning                        |
-| ------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------- |
-| **Continuous**  $R$                 | ***Clustering & <br />Dim Reduction***      | ***Regression***                                     | **Search & <br />Self-learning** |
+| Output      | Unsupervised Learning   | Supervised Learning   | Online Learning                        |
+| ----------- | ---------------- | ------------------------------ | --------------- |
+| **Continuous**  $R$     | ***Clustering & <br />Dim Reduction***      | ***Regression***                                     | **Search & <br />Self-learning** |
 |                                             | ○ SVD                                              | ○ Linear / Polynomial                                       | Genetic Algorithm                      |
 |                                             | ○ PCA                                              | ○ Non-Linear Regression                                     | Reinforcement L                        |
 |                                             | ○ K-means                                          | Decision Trees                                               |                                        |
-|                                             |                                                     | Random Forest                                                |                                        |
-|                                             |                                                     |                                                              |                                        |
+|                                             |                                                     | Random Forest                                                |                                                                           
 | **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification***                                 |                                        |
 |                                             | ○ Apriori                                          | Generative Model (Joint Prob.)<br />○ Naive Bayes, Bayesian |                                        |
 |                                             | ○ FP-Growth                                        | Discriminative Model<br />(Conditional Prob.)               |                                        |
 |                                             | Hidden Markov Model                                 | ○ Logistic Regression<br />  ○ Perceptron  ○ SVM          |                                        |
-|                                             |                                                     | ○ kNN / Trees                                               |                                        |
-|                                             |                                                     |                                                              |                                        |
-|                                             |                                                     |                                                              |                                        |
+|                                             |                                                     | ○ kNN / Trees                                               | 
+
+
 
 **Semi-Supervised Learning**
 
