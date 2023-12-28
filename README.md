@@ -123,12 +123,12 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
   - CNN
   - Cross Validation
 
-### Case Exploration: Titanic Survival Prediction
+<!-- ### Case Exploration: Titanic Survival Prediction
 
 [Titanic-ML-DataScience-Exploration](https://github.com/PeterHUistyping/Titanic-ML-DataScience-Exploration/)
 
 - *Kaggle:Titanic Survival Prediction Exploration*
-  - Updating ...
+  - Updating ... -->
 
 ## Reference
 

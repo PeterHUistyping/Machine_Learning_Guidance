@@ -13,7 +13,3 @@
 	url = git@github.com:PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision.git
 	branch = master
 
-[submodule "Titanic-ML-DataScience-Exploration"]
-	path = Titanic-ML-DataScience-Exploration
-	url = git@github.com:PeterHUistyping/Titanic-ML-DataScience-Exploration.git
-	branch = main
