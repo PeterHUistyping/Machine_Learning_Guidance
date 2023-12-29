@@ -122,6 +122,10 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
   - classifier SVM classifier
   - CNN
   - Cross Validation
+- Image Captioning and Detection
+  - RNN, Attention, Transformer
+  - Positional Encoding
+- Video, Generative model and Self-Supervised Learning
 
 <!-- ### Case Exploration: Titanic Survival Prediction
 
