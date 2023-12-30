@@ -115,6 +115,19 @@ Normalize scale of input data
   - Incorrect input to loss function (e.g., softmax instead of logits)
   - Data or labels corrupted
 
+### Evaluation
+
+Apply the bias-variance decomposition
+
+- Test error = irreducible error + bias + variance + val overfit
+
+| Error source     | Value | Analysis                         |
+| ---------------- | ----- | -------------------------------- |
+| Goal performance | 1%    |                                  |
+| Train error      | 20%   | Train - Goal = 19%<br />Underfit |
+| Validation error | 27%   | Val - Train = 7%<br />Overfit    |
+| Test error       | 28%   | Test - Val = 1%<br />Val overfit |
+
 ### Choose Hyperparameter
 
 - Check initial loss
@@ -159,5 +172,5 @@ Normalize scale of input data
   - Error analysis
   - Choose a different (closer to state-of-the-art) model
     architecture
-  - Tune hyperparameters
+  - Tune hyper-parameters
   - Early stopping, Remove features, Reduce model size
