@@ -29,24 +29,7 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - Tuning: Coarse-to-fine random search
 - Improve model/data
   - Make model bigger if **underfit** **→** reducing bias
-
-    - Reduce regularization
-    - Error analysis
-    - Choose a different (closer to state-of-the art)
-      model architecture (e.g., move from LeNet to
-      ResNet)
-    - Tune hyper-parameters (e.g., learning rate)
-    - Add features
   - Add data or regularize if **overfit** **→** reducing variance
-
-    - Add normalization (e.g., batch norm, layer norm)
-    - Add data augmentation
-    - Increase regularization (e.g., dropout, L2, weight decay)
-    - Error analysis
-    - Choose a different (closer to state-of-the-art) model
-      architecture
-    - Tune hyperparameters
-    - Early stopping, Remove features, Reduce model size
 
 ## Details
 
@@ -156,3 +139,25 @@ Normalize scale of input data
 - Refine grid, train longer
   - Look at loss and accuracy curves
   - Recursively
+
+### Improve model/data
+
+- Make model bigger if **underfit** **→** reducing bias
+
+  - Reduce regularization
+  - Error analysis
+  - Choose a different (closer to state-of-the art)
+    model architecture (e.g., move from LeNet to
+    ResNet)
+  - Tune hyper-parameters (e.g., learning rate)
+  - Add features
+- Add data or regularize if **overfit** **→** reducing variance
+
+  - Add normalization (e.g., batch norm, layer norm)
+  - Add data augmentation
+  - Increase regularization (e.g., dropout, L2, weight decay)
+  - Error analysis
+  - Choose a different (closer to state-of-the-art) model
+    architecture
+  - Tune hyperparameters
+  - Early stopping, Remove features, Reduce model size
