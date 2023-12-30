@@ -81,9 +81,6 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 
 ### DNN Troubleshooting
 
-
-[OpenAI Talk](https://video.ibm.com/recorded/120786685)
-
 #### Basic
 
 - Initial test set + a single metric to improve
@@ -111,6 +108,8 @@ Start simple -> Implement & Debug -> Evaluate -> ?
   - Add data or regularize if overfit
 
 [Troubleshooting](./Asset/Best%20Practice/TroubleShooting.md)
+
+[OpenAI Talk](https://video.ibm.com/recorded/120786685)
 
 ### DNN improvements
 
