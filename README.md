@@ -77,6 +77,45 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
   - Normalization, min-max/ 0-1
   - Standardization
 
+## Applied ML Best Practice
+
+### DNN Troubleshooting
+
+
+[OpenAI Talk](https://video.ibm.com/recorded/120786685)
+
+#### Basic
+
+- Initial test set + a single metric to improve
+- Target performance
+  - Human-level performance, published results, previous baselines, etc.
+
+#### Intuition
+
+- Results can be sensitive to small changes in hyperparameter and dataset makeup.
+
+```
+                          Tune hyperparameter
+                                  |
+Start simple -> Implement & Debug -> Evaluate -> ?
+                                  |
+                         Improve model & Data
+```
+
+- Start simple: simplest model & data possible (LeNet on a subset of the data)
+- Implement & Debug: Once model runs, overfit a single batch & reproduce a know result
+- Evaluate: Apply the bias-variance decomposition
+- Tuning: Coarse-to-fine random search
+- Improve model/data
+  - Make model bigger if underfit
+  - Add data or regularize if overfit
+
+[Troubleshooting](./Asset/Best%20Practice/TroubleShooting.md)
+
+### DNN improvements
+
+[Improvement direction](./Asset/Best%20Practice/Improvement.md)
+
 ## My Projects
 
 ### Foundation of Machine Learning (naive NLP, Network)
