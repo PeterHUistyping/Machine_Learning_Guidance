@@ -13,6 +13,13 @@ Positional Encoding
 ### Model
 
 - Weight initialization randomized (Default by torch.nn) ✓
+
+[nn.init](https://pytorch.org/docs/master/nn.init.html) package contains convenient initialization methods.
+
+```python
+nn.init.kaiming_normal_(self.fc.weight)
+```
+
 - Batch Normalization ✓
 - Layer Norm  -
 - Drop out

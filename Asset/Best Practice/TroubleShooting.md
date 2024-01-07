@@ -28,8 +28,8 @@ Start simple -> Implement & Debug -> Evaluate -> ?
   - Test error = irreducible error + bias + variance + val overfit
 - Tuning: Coarse-to-fine random search
 - Improve model/data
-  - Make model bigger if **underfit** **→** reducing bias
-  - Add data or regularize if **overfit** **→** reducing variance
+  - Make model bigger if **Underfit** → reducing bias
+  - Add data or regularize if **Overfit** → reducing variance
 
 ## Details
 
@@ -155,7 +155,7 @@ Apply the bias-variance decomposition
 
 ### Improve model/data
 
-- Make model bigger if **underfit** **→** reducing bias
+- Make model bigger if **Underfit** → reducing bias
 
   - Reduce regularization
   - Error analysis
@@ -164,7 +164,7 @@ Apply the bias-variance decomposition
     ResNet)
   - Tune hyper-parameters (e.g., learning rate)
   - Add features
-- Add data or regularize if **overfit** **→** reducing variance
+- Add data or regularize if **Overfit** → reducing variance
 
   - Add normalization (e.g., batch norm, layer norm)
   - Add data augmentation
