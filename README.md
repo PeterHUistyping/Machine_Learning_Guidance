@@ -27,18 +27,15 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 
 ### Methods Available
 
-| Output                                      | Unsupervised Learning                               | Supervised Learning                                 | Online Learning                        |
-| ------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | -------------------------------------- |
-| **Continuous**  $R$                 | ***Clustering & <br />Dim Reduction***      | ***Regression***                            | **Search & <br />Self-learning** |
-|                                             | ○ SVD                                              | ○ Linear / Polynomial                              | Genetic Algorithm                      |
-|                                             | ○ PCA                                              | ○ Non-Linear Regression                            | Reinforcement L                        |
-|                                             | ○ K-means                                          | Decision Trees                                      |                                        |
-|                                             | ○ GAN                                             | Random Forest                                       |                                        |
-| **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification***                        |                                        |
-|                                             | ○ Apriori                                          | ○ Naive Bayes, Bayesian                            |                                        |
-|                                             | ○ FP-Growth                                        | ○ Logistic Regression                              |                                        |
-|                                             | Hidden Markov Model                                 | ○ SVM                                              |                                        |
-|                                             |                                                     | ○ kNN / Trees ○ Perceptron<br />○ CNN  ○ RNN |                                        |
+| Output                                      | Unsupervised Learning                               | Supervised Learning          | Online Learning                        |
+| ------------------------------------------- | --------------------------------------------------- | ---------------------------- | -------------------------------------- |
+| **Continuous**  $R$                 | ***Clustering & <br />Dim Reduction***      | ***Regression***     | **Search & <br />Self-learning** |
+|                                             | ○ SVD                                              | ○ Linear / Polynomial       | Genetic Algorithm                      |
+|                                             | ○ PCA                                              | ○ Non-Linear Regression     | Reinforcement L                        |
+|                                             | ○ K-means                                          | Decision Trees               |                                        |
+|                                             | ○ GAN ○ VAE                                     | Random Forest                |                                        |
+| **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification*** |                                        |
+|                                             | ○ Apriori                                          | ○ Bayesian       ○ SVM |                                        |
 
 **Semi-Supervised Learning**
 
@@ -166,7 +163,9 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - Image Captioning
   - RNN, Attention, Transformer
   - Positional Encoding
-- Video, Generative model and Self-Supervised Learning
+- Video understanding
+- Generative model (GAN, VAE)
+- Self-Supervised Learning
 
 <!-- ### Case Exploration: Titanic Survival Prediction
 
