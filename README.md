@@ -154,13 +154,16 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 [DL-for-CV-Stanford_CS231n](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
 
-- Image Classification (Supervised Learning, Discrete label)
+- Image Classification  + Localization $(x,y,w,h)$
+  [ *Supervised Learning, Discrete label* + Regression ]
   - kNN
   - Softmax
   - classifier SVM classifier
   - CNN
   - Cross Validation
-- Image Captioning and Detection
+- Object Detection
+- Semantic / Instance Segmentation
+- Image Captioning
   - RNN, Attention, Transformer
   - Positional Encoding
 - Video, Generative model and Self-Supervised Learning
