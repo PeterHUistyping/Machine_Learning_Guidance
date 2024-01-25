@@ -160,7 +160,7 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - Generative model (GAN, VAE)
 - Self-Supervised Learning
 
-[See more -> Visual Computing](https://peterhuistyping.github.io/Visual_Computing/)
+[See more -> Visual Computing](https://github.com/PeterHUistyping/Visual_Computing)
 
 <!-- ### Case Exploration: Titanic Survival Prediction
 
