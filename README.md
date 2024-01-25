@@ -140,13 +140,6 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 ### Computer Vision
 
-| I\O                 | Image                     | Knowledge                |
-| ------------------- | ------------------------- | ------------------------ |
-| **Image**     | Image**Processing** | Computer Vision          |
-| **Knowledge** | Computer Graphics         | Aritificial Intelligence |
-
-![Relationship_CV](Asset/Relationship_CV.png)
-
 *Theoretical Computer Vision with Problems Sets, Stanford CS231n*
 
 [DL-for-CV-Stanford_CS231n](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
@@ -166,6 +159,8 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - Video understanding
 - Generative model (GAN, VAE)
 - Self-Supervised Learning
+
+[See more -> Visual Computing](https://peterhuistyping.github.io/Visual_Computing/)
 
 <!-- ### Case Exploration: Titanic Survival Prediction
 
