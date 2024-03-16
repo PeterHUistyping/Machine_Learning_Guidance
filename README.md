@@ -29,17 +29,17 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 
 - Hypothesis $h_{\omega}: R^n \rightarrow Y$, with weights $\omega$.
   - Input $x_1, ..., x_m$, where $x_i \in \R^n$
-  - Labels $Y=\{y_1,...,y_n\}$
+  - Labels/Output $Y=\{y_1,...,y_n\}$
 
-| Output\Learning                                 | Unsupervised                                        | Supervised                   | Online Learning                        |
-| ----------------------------------------------- | --------------------------------------------------- | ---------------------------- | -------------------------------------- |
-| **Continuous**  $Y=\R$                  | ***Clustering & <br />Dim Reduction***      | ***Regression***     | **Search & <br />Self-learning** |
-|                                                 | ○ SVD                                              | ○ Linear / Polynomial       | Genetic Algorithm                      |
-|                                                 | ○ PCA                                              | ○ Non-Linear Regression     | Reinforcement Learn                    |
-|                                                 | ○ K-means                                          | Decision Trees               |                                        |
-|                                                 | ○ GAN ○ VAE                                     | Random Forest                |                                        |
-| **Discrete** <br /> $Y$ =\{Categories\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |                                        |
-|                                                 | ○ Apriori                                          | ○ Bayesian       ○ SVM |                                        |
+| Output \ Kind                                   | Unsupervised                                        | Supervised [Labels]          |
+| ----------------------------------------------- | --------------------------------------------------- | ---------------------------- |
+| **Continuous**  <br /> $Y=\R$           | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
+|                                                 | ○ SVD                                              | ○ Linear / Polynomial       |
+|                                                 | ○ PCA                                              | ○ Non-Linear Regression     |
+|                                                 | ○ K-means                                          | Decision Trees               |
+|                                                 | ○ GAN ○ VAE                                     | Random Forest                |
+| **Discrete** <br /> $Y$ =\{Categories\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |
+|                                                 | ○ Apriori                                          | ○ Bayesian       ○ SVM |
 
 **Semi-Supervised Learning**
 
@@ -48,19 +48,24 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 
 **Reinforcement Learning**
 
-- Learn from *rewards* rather than labels.
-- Markov Decision Process
-- Q learning
-- Value-based V(s)
+- Learn from *rewards* rather than labels
 
+  - Markov Decision Process
+  - Q learning
+- In a state each timestamp
+
+  - when an action is performed, we move to a new state and receive a reward
+  - No knowledge in advance of how actions affect either the new state or the reward
+
+**Goal**
+
+- Value-based V(s)
   - the agent is expecting a long-term return of the current states under policy π
 - Policy-based
-
   - the action performed in every state helps you to gain maximum reward in the future
   - Deterministic: For any state, the same action is produced by the policy π
   - Stochastic: Every action has a certain probability
 - Model-based
-
   - create a virtual model for each environment
   - the agent learns to perform in that specific environment
 
@@ -165,7 +170,7 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - Generative model (GAN, VAE)
 - Self-Supervised Learning
 
-[See more -&gt; Visual Computing](https://github.com/PeterHUistyping/Visual_Computing)
+[See more: Visual Computing](https://github.com/PeterHUistyping/Visual_Computing)
 
 <!-- ### Case Exploration: Titanic Survival Prediction
 
@@ -173,6 +178,15 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 - *Kaggle:Titanic Survival Prediction Exploration*
   - Updating ... -->
+
+### More
+
+- AI 
+  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/)
+  - University of Cambridge, IB
+- Machine Learning and Bayesian Inference 
+  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/)
+  - University of Cambridge, II
 
 ## Reference
 
