@@ -4,24 +4,18 @@ A collection of my *Machine Learning and Data Science Projects*, including both 
 
 In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
 
-## ML Categories
+## Data Modelling & Prediction
 
 ### Generative vs Discriminative Model
 
-**Generative Model**
+Given the training data set $D = \{ ( x_i ; y_i ) | i ≤ N ∈ Z \}$, where $y_i$ is the corresponding output for the input $x_i$.
 
-- Joint Probability $P(x,y)$
-  - Assume some functional form for $P(y)$, $P(x|y)$
-  - Then, calculate $P(y|x)$ (via Bayes rule)
-- Naive Bayes, HMM
-  - Generate $X$ via $P(x|y)$ ✓
-  - Not direct classification ✗
-
-**Discriminative Model**
-
-- Conditional Probability $P(y|x)$
-  - Direct classification  ✓
-- Logistic regression, SVM, NN
+| Aspect\Model   | Generative                                     | Discriminative                                 |
+| -------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Learn Obj      | Joint probability<br /> $P(x,y)$             | $P(y\vert x)$ <br /> Conditional probability |
+| Formulation    | ditional<br />$P(y)$, $P(x\vert y)$        | $P(y\vert x)$                               |
+| Classification | Not direct (Bayes infer)<br /> $P(y\vert x)$ | Direct classification                          |
+| Examples       | Naive Bayes, HMM                               | Logistic Reg, SVM,<br />Neural Networks        |
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
 
@@ -44,10 +38,10 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 And more,
 
 | Aspect \ Type | Semi-Supervised  | Reinforcement               |
-| ------------ | ---------------- | --------------------------- |
-| Learn from   | Labels available | Rewards                     |
-| Methods      | pseudo-labels    | ○ Q learning              |
-|              | iteratively      | ○ Markov Decision Process |
+| ------------- | ---------------- | --------------------------- |
+| Learn from    | Labels available | Rewards                     |
+| Methods       | pseudo-labels    | ○ Q learning              |
+|               | iteratively      | ○ Markov Decision Process |
 
 **Reinforcement Learning**
 
@@ -67,7 +61,7 @@ And more,
   - create a virtual model for each environment
   - the agent learns to perform in that specific environment
 
-## Feature Engineering
+### Feature Engineering
 
 - Feature Selection
   - After fitting, plot Residuals vs any Predictor Variable
@@ -82,7 +76,20 @@ And more,
   - Normalization, min-max/ 0-1
   - Standardization
 
-## Applied ML Best Practice
+## Inference
+
+| Aspect                                         | Bayesianism                                                                                   | Frequentism                                                           |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Interpretation of Probability                 | A measure of belief or uncertainty                                                            | The limit of relative frequencies<br />in repeated experiments        |
+| Methods                                        | Prior knowledge and updates beliefs (Bayes')<br />to obtain posterior distributions           | Hypothesis testing, MLE, confidence intervals                        |
+| Treatment of Uncertainty<br />Random Variables | Parameters                                                                                    | Data set                                                              |
+| Handling of Data                               | useful when prior information is available or<br />when the focus is on prediction intervals. | often requires larger sample sizes                                    |
+| Flexibility                                    | flexible model,<br />allow updating models for new data                                     | more rigid, on specific statistical methods                           |
+| Computational Complexity                       | can be intensive computation,<br />for models with high-dim parameter spaces                 | simpler computation and<br />may be more straightforward in practice |
+
+#### Empiricism
+
+Applied ML Best Practice
 
 ### DNN Troubleshooting
 
@@ -179,6 +186,9 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 ### More
 
+- Data Science
+  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/DataSci/)
+  - University of Cambridge, IB
 - AI
   - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/)
   - University of Cambridge, IB
