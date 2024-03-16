@@ -30,7 +30,7 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 | *Continuous*  <br /> $Y=\R$               | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
 |                                               | ○ SVD                                              | ○ Linear / Polynomial       |
 |                                               | ○ PCA                                              | ○ Non-Linear Regression     |
-|                                               | ○ K-means                                          | Decision Trees               |
+|                                               | ○ k-means                                          | Decision Trees               |
 |                                               | ○ GAN ○ VAE                                     | Random Forest                |
 | *Discrete* <br /> $Y =$\{*Categories*\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |
 |                                               | ○ Apriori                                          | ○ Bayesian       ○ SVM |
@@ -84,7 +84,7 @@ And more,
 | Methods                                        | Prior knowledge and updates beliefs (Bayes')<br />to obtain posterior distributions           | Hypothesis testing, MLE, confidence intervals                        |
 | Treatment of Uncertainty<br />Random Variables | Parameters                                                                                    | Data set                                                              |
 | Handling of Data                               | useful when prior information is available or<br />when the focus is on prediction intervals. | often requires larger sample sizes                                    |
-| Flexibility                                    | flexible model,<br />allow updating models for new data                                     | more rigid, on specific statistical methods                           |
+| Flexibility                                    | flexible model,<br />allow updating models for new data                                      | more rigid, on specific statistical methods                           |
 | Computational Complexity                       | can be intensive computation,<br />for models with high-dim parameter spaces                 | simpler computation and<br />may be more straightforward in practice |
 
 #### Empiricism
@@ -187,14 +187,16 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 ### More
 
 - Data Science
-  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/DataSci/)
-  - University of Cambridge, IB
+
+  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/DataSci/) | Uni of Cambridge, IB
 - AI
-  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/)
-  - University of Cambridge, IB
+
+  - Search, Game, CSPs, Knowledge representation and Reasoning, Planning, NN.
+  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/) | Uni of Cambridge, IB
 - Machine Learning and Bayesian Inference
-  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/)
-  - University of Cambridge, II
+
+  - Linear classifiers (SVM), Unsupervised learning (k-means,EM), Bayesian networks
+  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/) | Uni of Cambridge, II
 
 ## Reference
 
