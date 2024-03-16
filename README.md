@@ -25,25 +25,30 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
 
-### Methods Available
+### Kinds of Learning
 
-| Output                                      | Unsupervised Learning                               | Supervised Learning          | Online Learning                        |
-| ------------------------------------------- | --------------------------------------------------- | ---------------------------- | -------------------------------------- |
-| **Continuous**  $R$                 | ***Clustering & <br />Dim Reduction***      | ***Regression***     | **Search & <br />Self-learning** |
-|                                             | ○ SVD                                              | ○ Linear / Polynomial       | Genetic Algorithm                      |
-|                                             | ○ PCA                                              | ○ Non-Linear Regression     | Reinforcement L                        |
-|                                             | ○ K-means                                          | Decision Trees               |                                        |
-|                                             | ○ GAN ○ VAE                                     | Random Forest                |                                        |
-| **Discrete $C$  <br />Categorical** | ***Association /<br /> Feature Analysis*** | ***Classification*** |                                        |
-|                                             | ○ Apriori                                          | ○ Bayesian       ○ SVM |                                        |
+- Hypothesis $h_{\omega}: R^n \rightarrow Y$, with weights $\omega$.
+  - Input $x_1, ..., x_m$, where $x_i \in \R^n$
+  - Labels $Y=\{y_1,...,y_n\}$
+
+| Output\Learning                                 | Unsupervised                                        | Supervised                   | Online Learning                        |
+| ----------------------------------------------- | --------------------------------------------------- | ---------------------------- | -------------------------------------- |
+| **Continuous**  $Y=\R$                  | ***Clustering & <br />Dim Reduction***      | ***Regression***     | **Search & <br />Self-learning** |
+|                                                 | ○ SVD                                              | ○ Linear / Polynomial       | Genetic Algorithm                      |
+|                                                 | ○ PCA                                              | ○ Non-Linear Regression     | Reinforcement Learn                    |
+|                                                 | ○ K-means                                          | Decision Trees               |                                        |
+|                                                 | ○ GAN ○ VAE                                     | Random Forest                |                                        |
+| **Discrete** <br /> $Y$ =\{Categories\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |                                        |
+|                                                 | ○ Apriori                                          | ○ Bayesian       ○ SVM |                                        |
 
 **Semi-Supervised Learning**
 
-- uses a small portion of labeled data and lots of unlabeled data to train a predictive model
-- iteratively generate pseudo-labels for a new dataset
+- a small portion of labeled data + lots of unlabeled data
+  - iteratively generate pseudo-labels
 
 **Reinforcement Learning**
 
+- Learn from *rewards* rather than labels.
 - Markov Decision Process
 - Q learning
 - Value-based V(s)
@@ -160,7 +165,7 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - Generative model (GAN, VAE)
 - Self-Supervised Learning
 
-[See more -> Visual Computing](https://github.com/PeterHUistyping/Visual_Computing)
+[See more -&gt; Visual Computing](https://github.com/PeterHUistyping/Visual_Computing)
 
 <!-- ### Case Exploration: Titanic Survival Prediction
 
