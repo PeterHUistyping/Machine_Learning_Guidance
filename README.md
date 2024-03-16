@@ -25,35 +25,33 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
 
-### Kinds of Learning
+### Types of Learning
 
 - Hypothesis $h_{\omega}: R^n \rightarrow Y$, with weights $\omega$.
   - Input $x_1, ..., x_m$, where $x_i \in \R^n$
   - Labels/Output $Y=\{y_1,...,y_n\}$
 
-| Output \ Kind                                   | Unsupervised                                        | Supervised [Labels]          |
-| ----------------------------------------------- | --------------------------------------------------- | ---------------------------- |
-| **Continuous**  <br /> $Y=\R$           | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
-|                                                 | ○ SVD                                              | ○ Linear / Polynomial       |
-|                                                 | ○ PCA                                              | ○ Non-Linear Regression     |
-|                                                 | ○ K-means                                          | Decision Trees               |
-|                                                 | ○ GAN ○ VAE                                     | Random Forest                |
-| **Discrete** <br /> $Y$ =\{Categories\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |
-|                                                 | ○ Apriori                                          | ○ Bayesian       ○ SVM |
+| Output \ Type                                 | Unsupervised                                        | Supervised [Labels]          |
+| --------------------------------------------- | --------------------------------------------------- | ---------------------------- |
+| *Continuous*  <br /> $Y=\R$               | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
+|                                               | ○ SVD                                              | ○ Linear / Polynomial       |
+|                                               | ○ PCA                                              | ○ Non-Linear Regression     |
+|                                               | ○ K-means                                          | Decision Trees               |
+|                                               | ○ GAN ○ VAE                                     | Random Forest                |
+| *Discrete* <br /> $Y =$\{*Categories*\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |
+|                                               | ○ Apriori                                          | ○ Bayesian       ○ SVM |
 
-**Semi-Supervised Learning**
+And more,
 
-- a small portion of labeled data + lots of unlabeled data
-  - iteratively generate pseudo-labels
+| Aspect \ Type | Semi-Supervised  | Reinforcement               |
+| ------------ | ---------------- | --------------------------- |
+| Learn from   | Labels available | Rewards                     |
+| Methods      | pseudo-labels    | ○ Q learning              |
+|              | iteratively      | ○ Markov Decision Process |
 
 **Reinforcement Learning**
 
-- Learn from *rewards* rather than labels
-
-  - Markov Decision Process
-  - Q learning
 - In a state each timestamp
-
   - when an action is performed, we move to a new state and receive a reward
   - No knowledge in advance of how actions affect either the new state or the reward
 
@@ -181,10 +179,10 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 ### More
 
-- AI 
+- AI
   - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/)
   - University of Cambridge, IB
-- Machine Learning and Bayesian Inference 
+- Machine Learning and Bayesian Inference
   - [Course link](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/)
   - University of Cambridge, II
 

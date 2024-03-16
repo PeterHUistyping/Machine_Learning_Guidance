@@ -169,7 +169,7 @@
 <li>Logistic regression, SVM, NN</li>
 </ul>
 <p>Reference: <a href="http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf">Generative and Discriminative Model</a>, Professor Andrew NG</p>
-<h3 id="kinds-of-learning">Kinds of Learning</h3>
+<h3 id="types-of-learning">Types of Learning</h3>
 <ul>
 <li>Hypothesis <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>ω</mi></msub><mo>:</mo><msup><mi>R</mi><mi>n</mi></msup><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">h_{\omega}: R^n \rightarrow Y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span></span></span></span>, with weights <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span></span>.
 <ul>
@@ -181,14 +181,14 @@
 <table>
 <thead>
 <tr>
-<th>Output \ Kind</th>
+<th>Output \ Type</th>
 <th>Unsupervised</th>
 <th>Supervised [Labels]</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Continuous</strong>  <br /> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">Y=\R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6889em;"></span><span class="mord mathbb">R</span></span></span></span></td>
+<td><em>Continuous</em>  <br /> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">Y=\R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6889em;"></span><span class="mord mathbb">R</span></span></span></span></td>
 <td><em><strong>Clustering &amp; <br />Dim Reduction</strong></em></td>
 <td><em><strong>Regression</strong></em></td>
 </tr>
@@ -213,7 +213,7 @@
 <td>Random Forest</td>
 </tr>
 <tr>
-<td><strong>Discrete</strong> <br /> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi></mrow><annotation encoding="application/x-tex">Y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span></span></span></span> ={Categories}</td>
+<td><em>Discrete</em> <br /> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo></mrow><annotation encoding="application/x-tex">Y =</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span></span></span></span>{<em>Categories</em>}</td>
 <td><em><strong>Association /<br /> Feature Analysis</strong></em></td>
 <td><em><strong>Classification</strong></em></td>
 </tr>
@@ -224,25 +224,36 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Semi-Supervised Learning</strong></p>
-<ul>
-<li>a small portion of labeled data + lots of unlabeled data
-<ul>
-<li>iteratively generate pseudo-labels</li>
-</ul>
-</li>
-</ul>
+<p>And more,</p>
+<table>
+<thead>
+<tr>
+<th>Aspect \ Type</th>
+<th>Semi-Supervised</th>
+<th>Reinforcement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Learn from</td>
+<td>Labels available</td>
+<td>Rewards</td>
+</tr>
+<tr>
+<td>Methods</td>
+<td>pseudo-labels</td>
+<td>○ Q learning</td>
+</tr>
+<tr>
+<td></td>
+<td>iteratively</td>
+<td>○ Markov Decision Process</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Reinforcement Learning</strong></p>
 <ul>
-<li>
-<p>Learn from <em>rewards</em> rather than labels</p>
-<ul>
-<li>Markov Decision Process</li>
-<li>Q learning</li>
-</ul>
-</li>
-<li>
-<p>In a state each timestamp</p>
+<li>In a state each timestamp
 <ul>
 <li>when an action is performed, we move to a new state and receive a reward</li>
 <li>No knowledge in advance of how actions affect either the new state or the reward</li>
