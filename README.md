@@ -10,12 +10,12 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 Given the training data set $D = \{ ( x_i ; y_i ) | i ≤ N ∈ Z \}$, where $y_i$ is the corresponding output for the input $x_i$.
 
-| Aspect\Model   | Generative                                     | Discriminative                                 |
-| -------------- | ---------------------------------------------- | ---------------------------------------------- |
-| Learn Obj      | Joint probability<br /> $P(x,y)$             | $P(y\vert x)$ <br /> Conditional probability |
-| Formulation    | ditional<br />$P(y)$, $P(x\vert y)$        | $P(y\vert x)$                               |
-| Classification | Not direct (Bayes infer)<br /> $P(y\vert x)$ | Direct classification                          |
-| Examples       | Naive Bayes, HMM                               | Logistic Reg, SVM,<br />Neural Networks        |
+| Aspect\Model   | Generative                                                        | Discriminative                                 |
+| -------------- | ----------------------------------------------------------------- | ---------------------------------------------- |
+| Learn obj      | $P(x,y)$      <br /> Joint probability | $P(y\vert x)$ <br /> Conditional probability |
+| Formulation    | class prior/conditional<br />$P(y)$, $P(x\vert y)$            | $P(y\vert x)$                               |
+| Classification | Not direct (Bayes infer)<br /> $P(y\vert x)$                    | Direct classification                          |
+| Examples       | Naive Bayes, HMM                                                  | Logistic Reg, SVM,<br />Neural Networks        |
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
 
@@ -30,7 +30,7 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 | *Continuous*  <br /> $Y=\R$               | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
 |                                               | ○ SVD                                              | ○ Linear / Polynomial       |
 |                                               | ○ PCA                                              | ○ Non-Linear Regression     |
-|                                               | ○ k-means                                          | Decision Trees               |
+|                                               | ○ K-means                                          | Decision Trees               |
 |                                               | ○ GAN ○ VAE                                     | Random Forest                |
 | *Discrete* <br /> $Y =$\{*Categories*\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |
 |                                               | ○ Apriori                                          | ○ Bayesian       ○ SVM |
@@ -195,7 +195,7 @@ Start simple -> Implement & Debug -> Evaluate -> ?
   - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/) | Uni of Cambridge, IB
 - Machine Learning and Bayesian Inference
 
-  - Linear classifiers (SVM), Unsupervised learning (k-means,EM), Bayesian networks
+  - Linear classifiers (SVM), Unsupervised learning (K-means,EM), Bayesian networks
   - [Course link](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/) | Uni of Cambridge, II
 
 ## Reference
