@@ -10,12 +10,12 @@ In addition, there are also references (paper, ebook, repo, tool, etc) that's in
 
 Given the training data set $D = \{ ( x_i ; y_i ) | i ≤ N ∈ Z \}$, where $y_i$ is the corresponding output for the input $x_i$.
 
-| Aspect\Model   | Generative                                                        | Discriminative                                 |
-| -------------- | ----------------------------------------------------------------- | ---------------------------------------------- |
-| Learn obj      | $P(x,y)$      <br /> Joint probability | $P(y\vert x)$ <br /> Conditional probability |
-| Formulation    | class prior/conditional<br />$P(y)$, $P(x\vert y)$            | $P(y\vert x)$                               |
-| Classification | Not direct (Bayes infer)<br /> $P(y\vert x)$                    | Direct classification                          |
-| Examples       | Naive Bayes, HMM                                                  | Logistic Reg, SVM,<br />Neural Networks        |
+| Aspect\Model | Generative                                             | Discriminative                                 |
+| ------------ | ------------------------------------------------------ | ---------------------------------------------- |
+| Learn obj    | $P(x,y)$      <br /> Joint probability               | $P(y\vert x)$ <br /> Conditional probability |
+| Formulation  | class prior/conditional<br />$P(y)$, $P(x\vert y)$ | likelihood<br />$P(y\vert x)$               |
+| Result       | not direct (Bayes)<br /> $P(y\vert x)$               | direct classification                          |
+| Examples     | Naive Bayes, HMM                                       | Logistic Reg, SVM,<br />DNN                    |
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
 
@@ -27,12 +27,12 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 
 | Output \ Type                                 | Unsupervised                                        | Supervised [Labels]          |
 | --------------------------------------------- | --------------------------------------------------- | ---------------------------- |
-| *Continuous*  <br /> $Y=\R$               | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
+| *Continuous*  $Y$ <br /> $=\R$               | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
 |                                               | ○ SVD                                              | ○ Linear / Polynomial       |
 |                                               | ○ PCA                                              | ○ Non-Linear Regression     |
 |                                               | ○ K-means                                          | Decision Trees               |
 |                                               | ○ GAN ○ VAE                                     | Random Forest                |
-| *Discrete* <br /> $Y =$\{*Categories*\} | ***Association /<br /> Feature Analysis*** | ***Classification*** |
+| *Discrete*  $Y$ <br /> $=\{Categories\}$ | ***Association /<br /> Feature Analysis*** | ***Classification*** |
 |                                               | ○ Apriori                                          | ○ Bayesian       ○ SVM |
 
 And more,
