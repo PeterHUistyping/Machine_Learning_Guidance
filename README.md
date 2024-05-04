@@ -21,19 +21,23 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
 
 ### Types of Learning
 
-- Hypothesis $h_{\omega}: R^n \rightarrow Y$, with weights $\omega$.
-  - Input $x_1, ..., x_m$, where $x_i \in \R^n$
-  - Labels/Output $Y=\{y_1,...,y_n\}$
+- Learner $L(X_I)=h \in \mathcal{H}$
+  - Input training data $X_I$, where $x_i \in \R$
+  - Hypothesis $h_{\omega}: X \in R^n \rightarrow Y$, with weights $\omega$.
+    - mapping attributes vectors $X$ to labels/output $Y=\{y_1,...,y_n\}$
+    - 
+    - For NN, $h(x)=f(\omega;x)$, explicitly parameterized by $\omega$
+    - For Generative model $f: Z \rightarrow X$, $Z$ is the latent variable
 
-| Output \ Type                                 | Unsupervised                                        | Supervised [Labels]          |
-| --------------------------------------------- | --------------------------------------------------- | ---------------------------- |
-| *Continuous*  $Y$ <br /> $=\R$               | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
-|                                               | ○ SVD                                              | ○ Linear / Polynomial       |
-|                                               | ○ PCA                                              | ○ Non-Linear Regression     |
-|                                               | ○ K-means                                          | Decision Trees               |
-|                                               | ○ GAN ○ VAE                                     | Random Forest                |
+| Output \ Type                                  | Unsupervised                                        | Supervised [Labels]          |
+| ---------------------------------------------- | --------------------------------------------------- | ---------------------------- |
+| *Continuous*  $Y$ <br /> $=\R$           | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
+|                                                | ○ SVD                                              | ○ Linear / Polynomial       |
+|                                                | ○ PCA                                              | ○ Non-Linear Regression     |
+|                                                | ○ K-means                                          | Decision Trees               |
+|                                                | ○ GAN<br />○ VAE ○ Diffusion                   | Random Forest                |
 | *Discrete*  $Y$ <br /> $=\{Categories\}$ | ***Association /<br /> Feature Analysis*** | ***Classification*** |
-|                                               | ○ Apriori                                          | ○ Bayesian       ○ SVM |
+|                                                | ○ Apriori                                          | ○ Bayesian       ○ SVM |
 
 And more,
 
