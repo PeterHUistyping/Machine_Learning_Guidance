@@ -4,7 +4,9 @@ A collection of my *Machine Learning and Data Science Projects*, including both 
 
 In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
 
-## Data Modelling & Prediction
+## Methods
+
+Data Modelling & Prediction
 
 ### Generative vs Discriminative Model
 
@@ -29,15 +31,17 @@ Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/pap
     - For NN, $h(x)=f(\omega;x)$, explicitly parameterized by $\omega$
     - For Generative model $f: Z \rightarrow X$, $Z$ is the latent variable
 
-| Output \ Type                                  | Unsupervised                                        | Supervised [Labels]          |
-| ---------------------------------------------- | --------------------------------------------------- | ---------------------------- |
-| *Continuous*  $Y$ <br /> $=\R$           | ***Clustering & <br />Dim Reduction***      | ***Regression***     |
-|                                                | ○ SVD                                              | ○ Linear / Polynomial       |
-|                                                | ○ PCA                                              | ○ Non-Linear Regression     |
-|                                                | ○ K-means                                          | Decision Trees               |
-|                                                | ○ GAN<br />○ VAE ○ Diffusion                   | Random Forest                |
-| *Discrete*  $Y$ <br /> $=\{Categories\}$ | ***Association /<br /> Feature Analysis*** | ***Classification*** |
-|                                                | ○ Apriori                                          | ○ Bayesian       ○ SVM |
+| Output \ Type                                  | Unsupervised                                        | Supervised [Labels]                       |
+| ---------------------------------------------- | --------------------------------------------------- | ----------------------------------------- |
+| *Continuous*  $Y$ <br /> $=\R$           | ***Clustering & <br />Dim Reduction***      | ***Regression***                  |
+|                                                | ○ SVD                                              | ○ Linear / Polynomial                    |
+|                                                | ○ PCA                                              | ○ Non-Linear Regression                  |
+|                                                | ○ K-means                                          | Decision Trees                            |
+|                                                | ○ GAN<br />○ VAE ○ Diffusion                   | Random Forest                             |
+| *Discrete*  $Y$ <br /> $=\{Categories\}$ | ***Association /<br /> Feature Analysis*** | ***Classification***              |
+|                                                | ○ Apriori                                          | ○ Bayesian       ○ SVM              |
+|                                                | ○ FP-Growth                                        | ○ Logistic Regression<br />○ Perceptron |
+|                                                | HMM                                                 | ○ kNN / Trees                            |
 
 And more,
 
