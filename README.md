@@ -1,14 +1,11 @@
 # Machine Learning Guidance
 
-A collection of my *Machine Learning and Data Science Projects*, including both Theoretical and Practical (Applied) ML.
+A collection of my *Machine Learning and Data Science Projects*, 
+- including both Theoretical and Practical (Applied) ML,
+- references (paper, ebook, repo, tool, etc), ranging from beginner to advanced.
+<!-- that's interesting and helpful attached. -->
 
-In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.
-
-## Methods
-
-Data Modelling & Prediction
-
-### Generative vs Discriminative Model
+## Generative vs Discriminative Model
 
 Given the training data set $D = \{ ( x_i ; y_i ) | i ≤ N ∈ Z \}$, where $y_i$ is the corresponding output for the input $x_i$.
 
@@ -21,17 +18,16 @@ Given the training data set $D = \{ ( x_i ; y_i ) | i ≤ N ∈ Z \}$, where $y_
 
 Reference: [Generative and Discriminative Model](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), Professor Andrew NG
 
-### Types of Learning
+## Types of Learning
 
 - Learner $L(X_I)=h \in \mathcal{H}$
   - Input training data $X_I$, where $x_i \in \R$
   - Hypothesis $h_{\omega}: X \in R^n \rightarrow Y$, with weights $\omega$.
     - mapping attributes vectors $X$ to labels/output $Y=\{y_1,...,y_n\}$
-    - 
     - For NN, $h(x)=f(\omega;x)$, explicitly parameterized by $\omega$
     - For Generative model $f: Z \rightarrow X$, $Z$ is the latent variable
 
-| Output \ Type                                  | Unsupervised                                        | Supervised                               |
+| Output \ Type                                  | Unsupervised                                        | Supervised                                |
 | ---------------------------------------------- | --------------------------------------------------- | ----------------------------------------- |
 | *Continuous*  $Y$ <br /> $=\R$           | ***Clustering & <br />Dim Reduction***      | ***Regression***                  |
 |                                                | ○ SVD                                              | ○ Linear / Polynomial                    |
@@ -69,7 +65,19 @@ And more,
   - create a virtual model for each environment
   - the agent learns to perform in that specific environment
 
-### Feature Engineering
+## Geometric Deep Learning
+
+The bigger picture of learning with invariances and symmetries:
+
+| Domain              | Structure                 | Symmetry / Bias         | Example                          |
+| ------------------- | ------------------------- | ----------------------- | -------------------------------- |
+| Images              | 2D grid                   | Translation equivariant | CNNs                             |
+| Sequences           | 1D sequence               | Order-aware             | RNNs, Transformers               |
+| Sets / Point Clouds | Unordered set             | Permutation invariant   | Deep Sets, PointNet              |
+| Graphs              | Nodes + edges             | Permutation equivariant | GNNs, Graph Isomorphism Networks |
+| Manifolds / Spheres | 2D surface embedded in 3D | Rotation equivariant    | Spherical CNNs                   |
+
+## Feature Engineering
 
 - Feature Selection
   - After fitting, plot Residuals vs any Predictor Variable
@@ -137,43 +145,27 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 ## My Projects
 
-### Foundation of Machine Learning (naive NLP, Network)
+<!-- ### Foundation of Machine Learning (naive NLP, Network) -->
 
-*Machine Learning Real World Data, University of Cambridge IA*
+[Machine Learning Real World Data, University of Cambridge IA](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
 
-[MLRD-Cambridge_IA](https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data)
+- Text Classification; Naive Bayes; Cross-Validation, 
+- HMM; Social Network
 
-- Text Classification;
-- Naive Bayes
-- Cross-Validation, NLP
-- HMM
-- Social Network
+<!-- ### Theoretical Machine Learning -->
 
-### Theoretical Machine Learning
+[Theoretical Machine Learning with Problems Sets, Stanford CS229](https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning)
 
-*Theoretical Machine Learning with Problems Sets, Stanford CS229*
+- Linear classifiers (Logistic Regression, GDA), SVM, etc
+- Stochastic Gradient Descent; L1 L2 Regularization
 
-[ML-Stanford_CS229](https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning)
+<!-- ### Computer Vision -->
 
-- Basic Concepts
-  - Linear classifiers (Logistic Regression, GDA)
-  - Stochastic Gradient Descent
-  - L1 L2 Regularization
-  - SVM
-
-### Computer Vision
-
-*Theoretical Computer Vision with Problems Sets, Stanford CS231n*
-
-[DL-for-CV-Stanford_CS231n](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
+[Deep Learning for Computer Vision with Problems Sets, Stanford CS231n](https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/)
 
 - Image Classification  + Localization $(x,y,w,h)$
   [ *Supervised Learning, Discrete label* + Regression ]
-  - kNN
-  - Softmax
-  - classifier SVM classifier
-  - CNN
-  - Cross Validation
+  - kNN; Softmax; classifier SVM classifier; CNN
 - Object Detection
 - Semantic / Instance Segmentation
 - Image Captioning
@@ -194,26 +186,19 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 
 ### More
 
-- Data Science
-
-  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/DataSci/) | Uni of Cambridge, IB
-- AI
-
+  
+- [Data Science](https://www.cl.cam.ac.uk/teaching/2324/DataSci/) | Uni. of Cambridge, Undergraduate course.
+- [AI](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/) | Uni of Cambridge, IB
   - Search, Game, CSPs, Knowledge representation and Reasoning, Planning, NN.
-  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/ArtInt/) | Uni of Cambridge, IB
-- Machine Learning and Bayesian Inference
-
+- [Machine Learning and Bayesian Inference](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/) | Uni of Cambridge, Undergraduate course.
   - Linear classifiers (SVM), Unsupervised learning (K-means,EM), Bayesian networks
-  - [Course link](https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/) | Uni of Cambridge, II
+- [Geometric Deep Learning](https://geometricdeeplearning.com/) | Cambridge, Oxford Master's courses.
 
 ## Reference
 
-### OpenAI cookbook
-
 [📝OpenAI cookbook](https://platform.openai.com/docs/introduction)
 
-### Generative Pre-trained Transformer (GPT) from Scratch ([Andrej Karpathy](https://github.com/karpathy/))
-
+Generative Pre-trained Transformer (GPT) from Scratch ([Andrej Karpathy](https://github.com/karpathy/))
 - [▶Youtube](https://www.youtube.com/watch?v=kCc8FmEb1nY)
   - [👨‍💻Code Github repo](https://github.com/karpathy/ng-video-lecture)
 - [👨‍💻nanoGPT repo](https://github.com/karpathy/nanoGPT)
@@ -223,11 +208,10 @@ Start simple -> Implement & Debug -> Evaluate -> ?
 - [📄Attention is All You Need](https://arxiv.org/abs/1706.03762)
 - [📄OpenAI GPT-3](https://arxiv.org/abs/2005.14165)
 - [📝OpenAI ChatGPT blog post](https://openai.com/blog/chatgpt/)
+- etc.
 
-## Library Used
+## Library
 
-Numpy, matplotlib, pandas, TensorFlow
-
-Caffe, Keras
-
-XGBoost, gensim
+- Numpy, matplotlib, pandas, TensorFlow
+- Caffe, Keras
+- XGBoost, gensim

@@ -140,11 +140,13 @@
         </head>
         <body class="vscode-body vscode-light">
             <h1 id="machine-learning-guidance">Machine Learning Guidance</h1>
-<p>A collection of my <em>Machine Learning and Data Science Projects</em>, including both Theoretical and Practical (Applied) ML.</p>
-<p>In addition, there are also references (paper, ebook, repo, tool, etc) that's interesting and helpful attached, ranging from beginner to advanced.</p>
-<h2 id="methods">Methods</h2>
-<p>Data Modelling &amp; Prediction</p>
-<h3 id="generative-vs-discriminative-model">Generative vs Discriminative Model</h3>
+<p>A collection of my <em>Machine Learning and Data Science Projects</em>,</p>
+<ul>
+<li>including both Theoretical and Practical (Applied) ML,</li>
+<li>references (paper, ebook, repo, tool, etc), ranging from beginner to advanced.</li>
+</ul>
+<!-- that's interesting and helpful attached. -->
+<h2 id="generative-vs-discriminative-model">Generative vs Discriminative Model</h2>
 <p>Given the training data set <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo>=</mo><mo stretchy="false">{</mo><mo stretchy="false">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo separator="true">;</mo><msub><mi>y</mi><mi>i</mi></msub><mo stretchy="false">)</mo><mi mathvariant="normal">∣</mi><mi>i</mi><mo>≤</mo><mi>N</mi><mo>∈</mo><mi>Z</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">D = \{ ( x_i ; y_i ) | i ≤ N ∈ Z \}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">D</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">{(</span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">;</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord">∣</span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span><span class="mclose">}</span></span></span></span>, where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>y</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">y_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> is the corresponding output for the input <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">x_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>.</p>
 <table>
 <thead>
@@ -178,7 +180,7 @@
 </tbody>
 </table>
 <p>Reference: <a href="http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf">Generative and Discriminative Model</a>, Professor Andrew NG</p>
-<h3 id="types-of-learning">Types of Learning</h3>
+<h2 id="types-of-learning">Types of Learning</h2>
 <ul>
 <li>Learner <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo stretchy="false">(</mo><msub><mi>X</mi><mi>I</mi></msub><mo stretchy="false">)</mo><mo>=</mo><mi>h</mi><mo>∈</mo><mi mathvariant="script">H</mi></mrow><annotation encoding="application/x-tex">L(X_I)=h \in \mathcal{H}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">L</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.07847em;">I</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7335em;vertical-align:-0.0391em;"></span><span class="mord mathnormal">h</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.00965em;">H</span></span></span></span>
 <ul>
@@ -186,7 +188,6 @@
 <li>Hypothesis <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>h</mi><mi>ω</mi></msub><mo>:</mo><mi>X</mi><mo>∈</mo><msup><mi>R</mi><mi>n</mi></msup><mo>→</mo><mi>Y</mi></mrow><annotation encoding="application/x-tex">h_{\omega}: X \in R^n \rightarrow Y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span></span></span></span>, with weights <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span></span>.
 <ul>
 <li>mapping attributes vectors <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span> to labels/output <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>=</mo><mo stretchy="false">{</mo><msub><mi>y</mi><mn>1</mn></msub><mo separator="true">,</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mo separator="true">,</mo><msub><mi>y</mi><mi>n</mi></msub><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">Y=\{y_1,...,y_n\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">{</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">...</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">}</span></span></span></span></li>
-<li></li>
 <li>For NN, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>ω</mi><mo separator="true">;</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">h(x)=f(\omega;x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">h</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="mpunct">;</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span>, explicitly parameterized by <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span></span></li>
 <li>For Generative model <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>Z</mi><mo>→</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">f: Z \rightarrow X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span>, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi></mrow><annotation encoding="application/x-tex">Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span></span></span></span> is the latent variable</li>
 </ul>
@@ -307,7 +308,51 @@
 </ul>
 </li>
 </ul>
-<h3 id="feature-engineering">Feature Engineering</h3>
+<h2 id="geometric-deep-learning">Geometric Deep Learning</h2>
+<p>The bigger picture of learning with invariances and symmetries:</p>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Structure</th>
+<th>Symmetry / Bias</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Images</td>
+<td>2D grid</td>
+<td>Translation equivariant</td>
+<td>CNNs</td>
+</tr>
+<tr>
+<td>Sequences</td>
+<td>1D sequence</td>
+<td>Order-aware</td>
+<td>RNNs, Transformers</td>
+</tr>
+<tr>
+<td>Sets / Point Clouds</td>
+<td>Unordered set</td>
+<td>Permutation invariant</td>
+<td>Deep Sets, PointNet</td>
+</tr>
+<tr>
+<td>Graphs</td>
+<td>Nodes + edges</td>
+<td>Permutation equivariant</td>
+<td>GNNs, Graph Isomorphism Networks</td>
+</tr>
+<tr>
+<td>Manifolds / Spheres</td>
+<td>2D surface embedded in 3D</td>
+<td>Rotation equivariant</td>
+<td>Spherical CNNs</td>
+</tr>
+</tbody>
+</table>
+<h2 id="feature-engineering">Feature Engineering</h2>
 <ul>
 <li>Feature Selection
 <ul>
@@ -415,41 +460,25 @@ Start simple -&gt; Implement &amp; Debug -&gt; Evaluate -&gt; ?
 <h3 id="dnn-improvements">DNN improvements</h3>
 <p><a href="./Asset/Best%20Practice/Improvement.html">Improvement direction</a></p>
 <h2 id="my-projects">My Projects</h2>
-<h3 id="foundation-of-machine-learning-naive-nlp-network">Foundation of Machine Learning (naive NLP, Network)</h3>
-<p><em>Machine Learning Real World Data, University of Cambridge IA</em></p>
-<p><a href="https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data">MLRD-Cambridge_IA</a></p>
+<!-- ### Foundation of Machine Learning (naive NLP, Network) -->
+<p><a href="https://github.com/PeterHUistyping/Machine_Learning-Real_World_Data">Machine Learning Real World Data, University of Cambridge IA</a></p>
 <ul>
-<li>Text Classification;</li>
-<li>Naive Bayes</li>
-<li>Cross-Validation, NLP</li>
-<li>HMM</li>
-<li>Social Network</li>
+<li>Text Classification; Naive Bayes; Cross-Validation,</li>
+<li>HMM; Social Network</li>
 </ul>
-<h3 id="theoretical-machine-learning">Theoretical Machine Learning</h3>
-<p><em>Theoretical Machine Learning with Problems Sets, Stanford CS229</em></p>
-<p><a href="https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning">ML-Stanford_CS229</a></p>
+<!-- ### Theoretical Machine Learning -->
+<p><a href="https://github.com/PeterHUistyping/Stanford_CS229.Machine_Learning">Theoretical Machine Learning with Problems Sets, Stanford CS229</a></p>
 <ul>
-<li>Basic Concepts
-<ul>
-<li>Linear classifiers (Logistic Regression, GDA)</li>
-<li>Stochastic Gradient Descent</li>
-<li>L1 L2 Regularization</li>
-<li>SVM</li>
+<li>Linear classifiers (Logistic Regression, GDA), SVM, etc</li>
+<li>Stochastic Gradient Descent; L1 L2 Regularization</li>
 </ul>
-</li>
-</ul>
-<h3 id="computer-vision">Computer Vision</h3>
-<p><em>Theoretical Computer Vision with Problems Sets, Stanford CS231n</em></p>
-<p><a href="https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/">DL-for-CV-Stanford_CS231n</a></p>
+<!-- ### Computer Vision -->
+<p><a href="https://github.com/PeterHUistyping/Stanford_CS231n-Deep_Learning-for-Computer_Vision/">Deep Learning for Computer Vision with Problems Sets, Stanford CS231n</a></p>
 <ul>
 <li>Image Classification  + Localization <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo separator="true">,</mo><mi>w</mi><mo separator="true">,</mo><mi>h</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(x,y,w,h)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">h</span><span class="mclose">)</span></span></span></span>
 [ <em>Supervised Learning, Discrete label</em> + Regression ]
 <ul>
-<li>kNN</li>
-<li>Softmax</li>
-<li>classifier SVM classifier</li>
-<li>CNN</li>
-<li>Cross Validation</li>
+<li>kNN; Softmax; classifier SVM classifier; CNN</li>
 </ul>
 </li>
 <li>Object Detection</li>
@@ -473,31 +502,22 @@ Start simple -&gt; Implement &amp; Debug -&gt; Evaluate -&gt; ?
   - Updating ... -->
 <h3 id="more">More</h3>
 <ul>
-<li>
-<p>Data Science</p>
-<ul>
-<li><a href="https://www.cl.cam.ac.uk/teaching/2324/DataSci/">Course link</a> | Uni of Cambridge, IB</li>
-</ul>
-</li>
-<li>
-<p>AI</p>
+<li><a href="https://www.cl.cam.ac.uk/teaching/2324/DataSci/">Data Science</a> | Uni. of Cambridge, Undergraduate course.</li>
+<li><a href="https://www.cl.cam.ac.uk/teaching/2324/ArtInt/">AI</a> | Uni of Cambridge, IB
 <ul>
 <li>Search, Game, CSPs, Knowledge representation and Reasoning, Planning, NN.</li>
-<li><a href="https://www.cl.cam.ac.uk/teaching/2324/ArtInt/">Course link</a> | Uni of Cambridge, IB</li>
 </ul>
 </li>
-<li>
-<p>Machine Learning and Bayesian Inference</p>
+<li><a href="https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/">Machine Learning and Bayesian Inference</a> | Uni of Cambridge, Undergraduate course.
 <ul>
 <li>Linear classifiers (SVM), Unsupervised learning (K-means,EM), Bayesian networks</li>
-<li><a href="https://www.cl.cam.ac.uk/teaching/2324/MLBayInfer/">Course link</a> | Uni of Cambridge, II</li>
 </ul>
 </li>
+<li><a href="https://geometricdeeplearning.com/">Geometric Deep Learning</a> | Cambridge, Oxford Master's courses.</li>
 </ul>
 <h2 id="reference">Reference</h2>
-<h3 id="openai-cookbook">OpenAI cookbook</h3>
 <p><a href="https://platform.openai.com/docs/introduction">📝OpenAI cookbook</a></p>
-<h3 id="generative-pre-trained-transformer-gpt-from-scratch-andrej-karpathy">Generative Pre-trained Transformer (GPT) from Scratch (<a href="https://github.com/karpathy/">Andrej Karpathy</a>)</h3>
+<p>Generative Pre-trained Transformer (GPT) from Scratch (<a href="https://github.com/karpathy/">Andrej Karpathy</a>)</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=kCc8FmEb1nY">▶Youtube</a>
 <ul>
@@ -511,11 +531,14 @@ Start simple -&gt; Implement &amp; Debug -&gt; Evaluate -&gt; ?
 <li><a href="https://arxiv.org/abs/1706.03762">📄Attention is All You Need</a></li>
 <li><a href="https://arxiv.org/abs/2005.14165">📄OpenAI GPT-3</a></li>
 <li><a href="https://openai.com/blog/chatgpt/">📝OpenAI ChatGPT blog post</a></li>
+<li>etc.</li>
 </ul>
-<h2 id="library-used">Library Used</h2>
-<p>Numpy, matplotlib, pandas, TensorFlow</p>
-<p>Caffe, Keras</p>
-<p>XGBoost, gensim</p>
+<h2 id="library">Library</h2>
+<ul>
+<li>Numpy, matplotlib, pandas, TensorFlow</li>
+<li>Caffe, Keras</li>
+<li>XGBoost, gensim</li>
+</ul>
 
             <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             
